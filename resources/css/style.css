@@ -1,0 +1,641 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+
+/*-- START HEADER SECTION---*/
+/*-- START HEADER SECTION---*/
+/*-- START HEADER SECTION---*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/header-section.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 90vh;
+    position: relative;
+    padding-top: 4rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.main-nav {
+    float: right;
+
+
+}
+
+.logo {
+    float: left;
+    height: auto;
+    width: 10rem;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 4rem;
+}
+
+.main-nav li:nth-child(1) {
+    margin-left: 0;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited {
+    border-bottom: .2rem solid #fb414e;
+}
+
+.header-section {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+}
+
+.active {
+    border-bottom: .2rem solid #fb414e;
+}
+
+.header-h1 {
+    font-size: 4rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-p {
+    margin-top: 2rem;
+    width: 60%;
+    margin-left: 20%;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    margin-bottom: 4rem;
+}
+
+.btn-1 {
+    text-decoration: none;
+    border: .1rem solid #fb414e;
+    padding: 1.3rem 4rem;
+    color: #fff;
+    margin-left: 2rem;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    font-weight: 400;
+
+}
+
+.but {
+    background-color: #fb414e;
+}
+
+.btn-1:hover {
+    background-color: #fb414e;
+}
+
+
+/*----END HEADER SECTION---*/
+/*----END HEADER SECTION---*/
+/*----END HEADER SECTION---*/
+
+
+/*----- START SERVICES SECTION---*/
+/*----- START SERVICES SECTION---*/
+/*----- START SERVICES SECTION---*/
+
+.services-section {
+
+    background: #fff;
+    margin-bottom: 12rem;
+
+}
+
+.box-map {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.box1 {
+    width: 30%;
+    float: left;
+    background-color: #fb414e;
+    padding: 6rem 3rem;
+    margin-left: 2rem;
+    margin-top: -5rem;
+    position: relative;
+
+}
+
+.box2 {
+    width: 30%;
+    float: left;
+    background-color: #202b30;
+    padding: 6rem 3rem;
+    margin-left: 2rem;
+    margin-top: -5rem;
+    position: relative;
+
+}
+
+.box3 {
+    width: 30%;
+    float: left;
+    background-color: #00569f;
+    padding: 6rem 3rem;
+    margin-left: 2rem;
+    margin-top: -5rem;
+    position: relative;
+
+}
+
+.box-map img {
+    height: 5rem;
+    margin-bottom: 2rem;
+}
+
+.box-map h3 {
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.box-map h3::after {
+    content: "";
+    display: block;
+    height: 0.2rem;
+    width: 3rem;
+    background: #fff;
+    margin: 1rem 0;
+}
+
+.box-map p {
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 400;
+    width: 90%
+}
+
+/*----END SERVICES SECTION---*/
+/*----END SERVICES SECTION---*/
+/*----END SERVICES SECTION---*/
+
+
+
+/*----START WORKS SECTION---*/
+/*----START WORKS SECTION---*/
+/*----START WORKS SECTION---*/
+
+
+.works-section {
+    width: 90%;
+    margin-left: 5%;
+    background: #202b30;
+    margin-bottom: 8rem;
+    padding: 10rem 20rem;
+}
+
+.section-1 {
+    display: block;
+    width: 40%;
+    float: left;
+    margin-right: 3rem;
+}
+
+.section-2 {
+    display: contents;
+    width: 50%;
+    float: right;
+
+}
+
+.section-1 h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.section-1 p {
+    color: #fff;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.section-1 button {
+    border: .1rem solid #fff;
+    background: #202b30;
+    color: #fff;
+    padding: 1rem 4rem;
+    cursor: pointer;
+}
+
+.section-1 button:hover {
+    background: #fb414e;
+}
+
+.section-2 img {
+    height: 24rem;
+    margin-left: 6rem;
+
+}
+
+.section-2 .img1 {
+    margin-right: -4rem;
+}
+
+/*----END WORKS SECTION---*/
+/*----END WORKS SECTION---*/
+/*----END WORKS SECTION---*/
+
+
+/*-- START QUALITY SECTION ---*/
+/*-- START QUALITY SECTION ---*/
+/*-- START QUALITY SECTION ---*/
+
+.quality-section {
+    width: 90%;
+    margin-left: 5%;
+    background: #f8f8f8;
+    margin-bottom: 8rem;
+    display: inline-block;
+    padding: 10rem 20rem;
+
+}
+
+.part1 {
+    padding-right: 2rem;
+}
+
+.part1 h4 {
+    color: #000;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.part1 p {
+    color: #838383;
+    margin-bottom: 4rem;
+}
+
+.part2 {
+    padding-left: 3rem;
+}
+
+.part2 h2 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.part2 p {
+    width: 90%;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    color: #838383;
+}
+
+.part2 .p-2 {
+    margin-top: 2rem;
+}
+
+/*---END QUALITY SECTION ---*/
+/*---END QUALITY SECTION ---*/
+/*---END QUALITY SECTION ---*/
+
+
+/*-- OUR WORK SECTION START ---*/
+/*-- OUR WORK SECTION START ---*/
+/*-- OUR WORK SECTION START ---*/
+.our-work {
+    margin-bottom: 4rem;
+}
+
+.menu-2nd {
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+
+.menu-2nd ul a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #8b8b8c;
+    padding: 1rem;
+}
+
+.menu-2nd ul a:hover {
+    color: darkslategrey;
+    border-bottom: .2rem solid darkslategrey;
+}
+
+.picture-section img {
+    height: 22rem;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.all {
+    color: darkslategrey;
+    border-bottom: .2rem solid darkslategrey;
+}
+
+/*---OUR WORK SECTION END---*/
+/*---OUR WORK SECTION END---*/
+/*---OUR WORK SECTION END---*/
+
+
+/*---CLIENTS SECTION START---/
+/*---CLIENTS SECTION START---*/
+/*---CLIENTS SECTION START---*/
+
+
+.clients {
+    width: 90%;
+    margin-left: 5%;
+    background: #0057a0;
+    display: inline-block;
+    padding: 10rem 20rem;
+}
+
+.clients h2 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.clients p {
+    font-size: 1.3rem;
+    width: 90%;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.clients button {
+    border: .2rem solid #fff;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.clients button:hover {
+    background: #fb414e;
+    border: .2rem solid #fb414e;
+    color: #fff;
+}
+
+.clients iframe {
+    height: 23rem;
+    width: 40rem;
+}
+
+
+/*---CLIENTS SECTION END---*/
+/*---CLIENTS SECTION END---*/
+/*---CLIENTS SECTION END---*/
+
+
+
+/*---CONTACT SECTION START--*/
+/*---CONTACT SECTION START--*/
+/*---CONTACT SECTION START--*/
+
+.contact-section {
+    width: 90%;
+    margin-left: 5%;
+    background: #fff;
+    display: inline-block;
+    padding: 08rem 20rem;
+}
+
+.contact-section h2 {
+    color: #000;
+    font-size: 3rem;
+    text-align: right;
+    margin-bottom: 4rem;
+    margin-right: 3rem;
+}
+
+.contact-section .p-1 {
+    font-size: 1.2rem;
+    text-align: right;
+    color: #202b30;
+    margin-bottom: 4rem;
+    margin-right: 3rem;
+    line-height: 2rem;
+}
+
+.contact-section .p-2 {
+    font-size: 1.2rem;
+    text-align: right;
+    color: #202b30;
+    margin-bottom: 6rem;
+    margin-right: 3rem;
+    line-height: 2rem;
+}
+
+.contact-section input {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+    color: #858585;
+}
+
+.contact-section .yourname {
+    width: 100%;
+}
+
+.contact-section .emailaddress {
+    float: right;
+}
+
+.contact-section select {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: #858585;
+}
+
+.contact-section textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: #858585;
+    padding: 1rem;
+}
+
+.contact-section .submit-button {
+    width: 100%;
+    border: .2rem solid #fb414e;
+    background: #fb414e;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.contact-section .submit-button:hover {
+    cursor: pointer;
+}
+
+/*---CONTACT SECTION END--*/
+/*---CONTACT SECTION END--*/
+/*---CONTACT SECTION END--*/
+
+
+
+
+/*---FOOTER SECTION START--*/
+/*---FOOTER SECTION START--*/
+/*---FOOTER SECTION START--*/
+
+footer {
+    background-color: #202b30;
+    height: 100%;
+    width: 100%;
+    padding: 5rem 20rem 0rem 20rem;
+    display: inline-block;
+}
+
+footer img {
+    height: auto;
+    width: 10rem;
+    margin-bottom: 5rem;
+}
+
+footer h6 {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+footer p {
+    width: 60%;
+    color: #fff;
+    line-height: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+
+footer .icon-f li {
+    margin-left: 0;
+    margin-right: 2rem;
+}
+
+footer .icon-f li a {
+    color: #000;
+    padding: .5rem;
+    border: .1rem solid #fb414e;
+    border-radius: 50%;
+    background: #fb414e;
+}
+
+footer .icon-f li a:hover {
+    background: #fff;
+    border: none;
+}
+
+
+
+footer .footer-nav ul li {
+    display: inline-block;
+    margin-left: 2rem;
+    float: left;
+    margin-bottom: 5rem;
+}
+
+.footer-nav li:nth-child(1) {
+    margin-left: 0;
+}
+
+footer .ftr-frm {
+    float: right;
+}
+
+footer form {
+    width: 100%;
+    float: right;
+}
+
+.footer-section form {
+    margin-top: 1.2rem;
+}
+
+.footer-section .footer-mail {
+    width: 80%;
+    font-size: 1.4rem;
+    padding: .8rem;
+    float: left;
+    border: .1rem solid #fff;
+
+}
+
+.footer-section .footer-submit {
+    width: 20%;
+    font-size: 1.4rem;
+    padding: .8rem;
+    float: right;
+    border: .2rem solid #fb414e;
+    background: #fb414e;
+    color: #fff;
+}
+
+.footer-section .footer-final {
+    float: right;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+    color: #454e52;
+    font-size: 1.2rem;
+
+}
+
+/*---FOOTER SECTION END--*/
+/*---FOOTER SECTION END--*/
+/*---FOOTER SECTION END--*/
+/*---FOOTER SECTION END--*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---PSD TO HTML CSS CONVERT BY ASHRAF TANVIR---*/
